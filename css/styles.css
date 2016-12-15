@@ -1,0 +1,219 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+body {
+  background-color: #fe504f;
+}
+
+#heading {
+  text-align: center;
+  background-color: #36454f;
+  padding-top: 10px;
+  font-family: 'Anton', sans-serif;
+}
+
+
+
+#heading-text {
+  padding-top:100px;
+  padding-bottom: 100px;
+  color: #fe504f;
+  text-transform: uppercase;
+  font-size:50px; 
+  letter-spacing: 10px;
+}
+
+#heading-text a{
+  color: #fe504f;
+}
+
+#heading-text a:hover, #heading-text a:focus, #heading-text a:visited {
+  text-decoration: none;
+   color: #fe504f;
+}
+
+
+#page-title {
+  font-size: 2em;
+}
+
+#ep-list {
+  background-color: #fe504f;
+  color: white;
+}
+
+#ep-list {
+  padding-top: 50px;
+  font-size: 2.5em;
+}
+
+#ep-list-text ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#ep-list-text ul li a{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+
+#ep-list-text ul li {
+  padding: 20px;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 5px;
+
+}
+
+#ep-content {
+  color: black;
+  font-size: 1.4em;
+  font-family: 'Oxygen' sans-serif;
+  line-height: 180%;
+  letter-spacing: 1.3px;
+  /*background-color: #ced7dd; */
+  background-color: white; 
+  
+}
+
+#ep-content-text{
+  background-color: white;
+  padding-top: 50px;
+  font-family: 'Oxygen', sans-serif;
+  
+}
+
+
+#ep1-content {
+  padding: 20px;
+}
+
+h3 {
+  color: #36454f;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+h4 {
+  color:#fe504f ;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+#recap-button {
+  background-color: #36454f;
+  color: white;
+  border: none;
+  font-family: 'Oxygen', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#glyph-star {
+  padding-right: 5px;
+}
+
+
+#menu-ep {
+  display: none;
+   list-style-type: none;
+   padding: 10px 0 0 0;
+  font-family: 'Satisfy', cursive;
+  letter-spacing: 5px;
+  color: white;
+  text-transform: none;
+  font-size: 0.7em;
+  background-color: #fe504f;
+  
+}
+
+
+#menu-ep li a, #menu-ep li a:hover, #menu-ep li a:visited, #menu-ep li a:focus {
+  color: white;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+#heading-text {
+  padding-top:30px;
+  padding-bottom: 30px;
+  font-size:40px; 
+  letter-spacing: 10px;
+}
+
+#menu-ep {
+  font-size: 0.8em;
+  background-color: #36454f;
+}
+
+#ep-list {
+  font-size: 30px;
+ 
+}
+
+
+}
+
+@media (max-width: 767px) {
+  #heading-text {
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size:20px; 
+  letter-spacing: 5px;
+}
+
+#page-subhead {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+#ep-list {
+  font-size: 25px;
+ 
+}
+
+
+#ep-content {
+  color: black;
+  font-size: 1.2em;
+  line-height: 150%;  
+}
+
+#ep-content-text{
+  padding-top: 5px;
+}
+
+#menu-ep {
+ 
+  font-size: 1.2em;
+  background-color: #36454f;
+}
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  #heading-text {
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size:20px; 
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+#page-subhead {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+ #ep-content {
+  color: black;
+  font-size: 1.0em;
+  }
+}
