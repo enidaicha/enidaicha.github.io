@@ -1,8 +1,6 @@
-* {
-    -webkit-font-smoothing: antialiased;
-}
 body {
   background-color: #fe504f;
+   -webkit-font-smoothing: antialiased;
 }
 
 #heading {
@@ -11,8 +9,6 @@ body {
   padding-top: 10px;
   font-family: 'Anton', sans-serif;
 }
-
-
 
 #heading-text {
   padding-top:100px;
